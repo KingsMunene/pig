@@ -1,8 +1,3 @@
-html,body{
-      height: 100%;
-      background-image: url("../img/header-image.jpg");
-      background-size: cover;
-      position: relative;
 }
 .header{
   text-align: center;
@@ -13,5 +8,13 @@ html,body{
 }
 .how{
   background-image: url(../images/hammer-719066_1920.jpg);
-  font-family: 'Nanum Pen Script', cursive;
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-weight: 500;
+  font-weight: bolder;
+  background-color: rgba(0,0,0, 0.7);
+  background-attachment: fixed;
+  line-height: 60px;
+}
+.headerrule{
+  font-family: 'Goudy Bookletter 1911', serif;
 }
