@@ -5,24 +5,25 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Akronim|Cabin+Sketch|Finger+Paint|Goudy+Bookletter+1911|IM+Fell+English|Love+Ya+Like+A+Sister|Nanum+Pen+Script|Poor+Story|Sorts+Mill+Goudy" rel="stylesheet">
     <title>play pig dice</title>
   </head>
   <body>
     <form id="gamepg">
       <div class="playerone">
-        <h1>PLAYER ONE</h1>
-        <p id="current1">CURRENT SCORE</p>
-        <p id="total1">SCORE</p>
+        <h1 class="jumbotron">PLAYER ONE</h1>
+        <p id="current1">CURRENT SCORE:</p>
+        <p id="total1">SCORE:</p>
+        <button type="button" id="roll1" class="btn btn-primary btn-lg active" name="roll">ROLL</button>
+        <button type="button" id="hold1" class="btn btn-success btn-lg active" name="hold">HOLD</button>
       </div>
-        <button type="button" id="roll1"name="roll">ROLL</button>
-        <button type="button" id="hold1"name="hold">HOLD</button>
       <div class="playertwo">
-        <h1>PLAYER TWO</h1>
-        <p id="current2">CURRENT SCORE</p>
-        <P id="total2">SCORE</P>
+        <h1 class="jumbotron">PLAYER TWO</h1>
+        <p id="current2">CURRENT SCORE:</p>
+        <P id="total2">SCORE:</P>
+        <button type="button" id="roll2" class="btn btn-primary btn-lg active" name="roll">ROLL</button>
+        <button type="button" id="hold2" class="btn btn-success btn-lg active" name="hold">HOLD</button>
       </div>
-        <button type="button" id="roll2"name="roll">ROLL</button>
-        <button type="button" id="hold2"name="hold">HOLD</button>
 </body>
 
 </html>
