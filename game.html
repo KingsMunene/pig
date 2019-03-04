@@ -2,45 +2,27 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <title>play pig dice</title>
   </head>
   <body>
-<div class="container">
-  <div class="rows">
-    <div class="col-md-6">
-      <div id="playerONE">
-        <li>PLAYER ONE</li>
-        <input type="text" name="PLAYER ONE" value="">
-        <label for="PLAYER ONE">PLAYER ONE</label>
-        <button type="button" name="ROLL">ROLL</button>
-        <h2 id="player1">player 1</h2>
-            </div>
-            <div style="height:10px;width:100%"nclass="spacer">  </div>
-            <div class="roll-value">
-              <h4>You rolled:</h4>
-              <br>
-              <span id="rollsideOne"></span>
-            </div>
-            <div class="player1-currrent">
-              <h4>Current Score:</h4>
-              <span id="p1-currentscore"></span>
-            </div>
-            <div style="height:10px;width:100%"nclass="spacer">  </div>
-            <div class="player1-total">
-              <h4>Total points:</h4>
-                <span class="p1Score"> </span>
-            </div>
-          </div>
-
-
+    <form id="gamepg">
+      <div class="playerone">
+        <h1>PLAYER ONE</h1>
+        <p id="current1">CURRENT SCORE</p>
+        <p id="total1">SCORE</p>
       </div>
+        <button type="button" id="roll1"name="roll">ROLL</button>
+        <button type="button" id="hold1"name="hold">HOLD</button>
+      <div class="playertwo">
+        <h1>PLAYER TWO</h1>
+        <p id="current2">CURRENT SCORE</p>
+        <P id="total2">SCORE</P>
+      </div>
+        <button type="button" id="roll2"name="roll">ROLL</button>
+        <button type="button" id="hold2"name="hold">HOLD</button>
+</body>
 
-    </div>
-
-  </div>
-
-</div>
-  </body>
 </html>
