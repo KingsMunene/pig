@@ -1,6 +1,8 @@
-}
-.header{
+.jumbotron{
   text-align: center;
+  font-family: 'IM Fell English', serif;
+  line-height: 30px;
+  font-weight: bold;
 }
 .rules{
   text-align: left;
@@ -9,12 +11,17 @@
 .how{
   background-image: url(../images/hammer-719066_1920.jpg);
   font-family: 'Love Ya Like A Sister', cursive;
-  font-weight: 500;
-  font-weight: bolder;
-  background-color: rgba(0,0,0, 0.7);
   background-attachment: fixed;
   line-height: 60px;
+  font-weight: 800;
 }
-.headerrule{
+.headerr2{
   font-family: 'Goudy Bookletter 1911', serif;
+  font-weight: bold;
+}
+.list{
+  font-weight: bolder;
+}
+.history{
+  text-align: right;
 }
