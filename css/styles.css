@@ -25,3 +25,8 @@
 .history{
   text-align: right;
 }
+.game{
+  font-family: 'Cardo', serif;
+  border-color: white;
+  border: 4px;
+}
