@@ -40,6 +40,7 @@
   float: left;
   height: 800px;
   font-family: 'Akronim', cursive;
+  font-size: 40px;
 }
 
 .playertwo{
@@ -49,6 +50,7 @@
   height: 800px;
   background-color:#4ECDC4;
   font-family: 'Akronim', cursive;
+  font-size: 40px;
 }
 #total1{
   font-size: 30px;
