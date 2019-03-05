@@ -2,8 +2,8 @@
   text-align: center;
   font-family: 'Finger Paint', cursive;
   font-weight: bold;
-  background-color:#4AC29A;
-  margin-top: 20px;
+  background-color:#F2F2F2;
+  margin-top: 30px;
   margin-bottom: 20px;
   margin-left: 20px;
   margin-right: 20px;
@@ -15,8 +15,6 @@
   background-image: url(../images/pig.jpg);
   font-family: 'Love Ya Like A Sister', cursive;
   background-attachment: fixed;
-  line-height: 60px;
-  font-weight: 800;
 }
 
 .list{
@@ -34,6 +32,7 @@
 }
 .intro{
   background-image: url(../images/bck.jpg);
+
 }
 .playerone{
   text-align: center;
@@ -61,7 +60,7 @@
   color:white;
   font-size: 30px;
   margin: 50px;
-  font-family: 'Cabin Sketch', cursive;
+
 }
 #current1{
   color: #4ECDC4;
@@ -73,3 +72,36 @@
   font-size: 30px;
   margin: 50px;
 }
+.header{
+  font-family: 'Cabin Sketch', cursive;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+  animation-name: bounce;
+  animation-duration: 2s infinite;
+}
+
+.p2{
+  font-style: italic;
+  font-size: 40px;
+  font-weight: 500;
+  color: black;
+  font-family: 'Love Ya Like A Sister', cursive;
+}
+.link{
+  font-weight: 600;
+}
+
+.paragraph{
+  font-size: 30px;
+  line-height: 50px;
+  color: black;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px white;
+  }
+  to {
+    text-shadow: 0 0 30px #000046;
+  }
