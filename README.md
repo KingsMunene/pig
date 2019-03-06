@@ -1,5 +1,5 @@
 # PIG DICE
-Pig dice is a dice game where players roll a dice and gain points based  on the side that is at top.
+Pig dice is a dice game where players roll a dice and gain points based  on the side rolled i.e(a 6).
 You win by being the first player to score 100 or more points.
 ## AUTHOR(s) Information
 check out my Portfolio:[https://kingsmunene.github.io/]()
