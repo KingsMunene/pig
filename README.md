@@ -4,7 +4,7 @@ Quiz Board is a website on which students can take a java script test which is p
 ## AUTHOR(s) Information
 check out my Portfolio:[https://kingsmunene.github.io/]()
 
-##BDD
+## BDD
 
 |       ACTION                                                            |            OUTPUT                    |
 | ------------------------------------------------------------------------|:------------------------------------:|
