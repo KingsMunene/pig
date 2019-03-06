@@ -1,6 +1,6 @@
 # PIG DICE
-
-Quiz Board is a website on which students can take a java script test which is presented in multiple choices and get results after submitting their choices. The score is in percentage.
+Pig dice is a dice game where players roll a dice and gain points based  on the side that is at top.
+You win by being the first player to score 100 or more points.
 ## AUTHOR(s) Information
 check out my Portfolio:[https://kingsmunene.github.io/]()
 
