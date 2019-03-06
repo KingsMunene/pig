@@ -3,7 +3,9 @@
 Quiz Board is a website on which students can take a java script test which is presented in multiple choices and get results after submitting their choices. The score is in percentage.
 ## AUTHOR(s) Information
 check out my Portfolio:[https://kingsmunene.github.io/]()
+
 ##BDD
+
 |       ACTION                                                            |            OUTPUT                    |
 | ------------------------------------------------------------------------|:------------------------------------:|
 | The player clicks roll                                                  | random number(1-6)                   |
