@@ -28,12 +28,29 @@ $(document).ready(function(){
     var currentb = Math.floor((Math.random()*6)+1);
     $("#current2").text(currentb);
     if (currentb == 1){
-      $("#roll2").hide();
       $("#roll1").show();
+      $("#roll2").hide();
+   
       $("#sorry2").text(sorrymsg2);
     };
   });
 });
+
+$(document).ready(function(){
+  $("#hold1").click(function(){
+    event.preventDefault();
+    var total = add(current);
+    $("total1").text(total);
+  });
+});
+$(document).ready(function(){
+  $("#hold2").click(function(){
+    event.preventDefault();
+    var totalb = add(currentb);
+    $("total1").text(totalb);
+  });
+});
+
 $(document).ready(function(){
   $("#hold1").click(function(){
     event.preventDefault();
